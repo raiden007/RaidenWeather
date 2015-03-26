@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="RaidenWeather" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XGs-Us-jhr">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Weather" id="e3X-4m-tzU"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a city to find out the Weather!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85W-wp-2us">
+                                <rect key="frame" x="165" y="95" width="271" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter city name ..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GjR-9a-cxq">
+                                <rect key="frame" x="165" y="124" width="271" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cOg-qr-W6l"/>
+                                    <constraint firstAttribute="width" constant="271" id="wSM-e4-0Du"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyM-tJ-CRM">
+                                <rect key="frame" x="251" y="173" width="88" height="30"/>
+                                <state key="normal" title="Get weather!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="getWeatherButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gem-CH-CgW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The weather will be:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="eqi-dU-SlA">
+                                <rect key="frame" x="24" y="240" width="552" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="568" id="Pj4-cM-jbK"/>
+                                    <constraint firstAttribute="height" constant="75" id="fWt-xr-1ql"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Pj4-cM-jbK"/>
+                                        <exclude reference="fWt-xr-1ql"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="XGs-Us-jhr" secondAttribute="trailing" constant="-16" id="2a5-tP-4Cg"/>
+                            <constraint firstItem="eqi-dU-SlA" firstAttribute="top" secondItem="lyM-tJ-CRM" secondAttribute="bottom" constant="37" id="8g3-1z-KVR"/>
+                            <constraint firstItem="XGs-Us-jhr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="D09-7h-NWi"/>
+                            <constraint firstItem="XGs-Us-jhr" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="Kc4-jp-vUi"/>
+                            <constraint firstItem="GjR-9a-cxq" firstAttribute="top" secondItem="85W-wp-2us" secondAttribute="bottom" constant="8" id="PRn-dt-mse"/>
+                            <constraint firstAttribute="centerX" secondItem="lyM-tJ-CRM" secondAttribute="centerX" constant="5" id="QZB-qV-uG5"/>
+                            <constraint firstItem="lyM-tJ-CRM" firstAttribute="top" secondItem="GjR-9a-cxq" secondAttribute="bottom" constant="19" id="Rtk-d2-b5m"/>
+                            <constraint firstAttribute="centerX" secondItem="85W-wp-2us" secondAttribute="centerX" id="aLY-E2-bUl"/>
+                            <constraint firstAttribute="centerX" secondItem="eqi-dU-SlA" secondAttribute="centerX" constant="-0.5" id="aja-J2-NVO"/>
+                            <constraint firstItem="85W-wp-2us" firstAttribute="top" secondItem="XGs-Us-jhr" secondAttribute="bottom" constant="51" id="lNh-zH-6cC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eqi-dU-SlA" secondAttribute="trailing" constant="8" id="ski-kn-XNE"/>
+                            <constraint firstAttribute="centerX" secondItem="GjR-9a-cxq" secondAttribute="centerX" id="slH-KE-F8r"/>
+                            <constraint firstItem="eqi-dU-SlA" firstAttribute="top" secondItem="GjR-9a-cxq" secondAttribute="bottom" constant="86" id="wbg-Y6-EcB"/>
+                            <constraint firstItem="eqi-dU-SlA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="xuE-QR-aG0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="wbg-Y6-EcB"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="cityNameTextField" destination="GjR-9a-cxq" id="Yb5-Ex-RDG"/>
+                        <outlet property="getWeatherButton" destination="lyM-tJ-CRM" id="kFM-nW-MpU"/>
+                        <outlet property="weatherResultsLabel" destination="eqi-dU-SlA" id="JTr-1L-7tS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7322371AC29C5D007653AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7322361AC29C5D007653AD /* AppDelegate.swift */; };
+		6D7322391AC29C5D007653AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7322381AC29C5D007653AD /* ViewController.swift */; };
+		6D73223C1AC29C5D007653AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D73223A1AC29C5D007653AD /* Main.storyboard */; };
+		6D73223E1AC29C5D007653AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D73223D1AC29C5D007653AD /* Images.xcassets */; };
+		6D7322411AC29C5D007653AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D73223F1AC29C5D007653AD /* LaunchScreen.xib */; };
+		6D73224D1AC29C5D007653AD /* RaidenWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D73224C1AC29C5D007653AD /* RaidenWeatherTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D7322471AC29C5D007653AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D7322291AC29C5D007653AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D7322301AC29C5D007653AD;
+			remoteInfo = RaidenWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D7322311AC29C5D007653AD /* RaidenWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaidenWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7322351AC29C5D007653AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7322361AC29C5D007653AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D7322381AC29C5D007653AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D73223B1AC29C5D007653AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D73223D1AC29C5D007653AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D7322401AC29C5D007653AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6D7322461AC29C5D007653AD /* RaidenWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaidenWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D73224B1AC29C5D007653AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D73224C1AC29C5D007653AD /* RaidenWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidenWeatherTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D73222E1AC29C5D007653AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7322431AC29C5D007653AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7322281AC29C5D007653AD = {
+			isa = PBXGroup;
+			children = (
+				6D7322331AC29C5D007653AD /* RaidenWeather */,
+				6D7322491AC29C5D007653AD /* RaidenWeatherTests */,
+				6D7322321AC29C5D007653AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D7322321AC29C5D007653AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7322311AC29C5D007653AD /* RaidenWeather.app */,
+				6D7322461AC29C5D007653AD /* RaidenWeatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7322331AC29C5D007653AD /* RaidenWeather */ = {
+			isa = PBXGroup;
+			children = (
+				6D7322361AC29C5D007653AD /* AppDelegate.swift */,
+				6D7322381AC29C5D007653AD /* ViewController.swift */,
+				6D73223A1AC29C5D007653AD /* Main.storyboard */,
+				6D73223D1AC29C5D007653AD /* Images.xcassets */,
+				6D73223F1AC29C5D007653AD /* LaunchScreen.xib */,
+				6D7322341AC29C5D007653AD /* Supporting Files */,
+			);
+			path = RaidenWeather;
+			sourceTree = "<group>";
+		};
+		6D7322341AC29C5D007653AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D7322351AC29C5D007653AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D7322491AC29C5D007653AD /* RaidenWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D73224C1AC29C5D007653AD /* RaidenWeatherTests.swift */,
+				6D73224A1AC29C5D007653AD /* Supporting Files */,
+			);
+			path = RaidenWeatherTests;
+			sourceTree = "<group>";
+		};
+		6D73224A1AC29C5D007653AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D73224B1AC29C5D007653AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7322301AC29C5D007653AD /* RaidenWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7322501AC29C5D007653AD /* Build configuration list for PBXNativeTarget "RaidenWeather" */;
+			buildPhases = (
+				6D73222D1AC29C5D007653AD /* Sources */,
+				6D73222E1AC29C5D007653AD /* Frameworks */,
+				6D73222F1AC29C5D007653AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaidenWeather;
+			productName = RaidenWeather;
+			productReference = 6D7322311AC29C5D007653AD /* RaidenWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D7322451AC29C5D007653AD /* RaidenWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7322531AC29C5D007653AD /* Build configuration list for PBXNativeTarget "RaidenWeatherTests" */;
+			buildPhases = (
+				6D7322421AC29C5D007653AD /* Sources */,
+				6D7322431AC29C5D007653AD /* Frameworks */,
+				6D7322441AC29C5D007653AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D7322481AC29C5D007653AD /* PBXTargetDependency */,
+			);
+			name = RaidenWeatherTests;
+			productName = RaidenWeatherTests;
+			productReference = 6D7322461AC29C5D007653AD /* RaidenWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7322291AC29C5D007653AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Andrei Joghiu";
+				TargetAttributes = {
+					6D7322301AC29C5D007653AD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6D7322451AC29C5D007653AD = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6D7322301AC29C5D007653AD;
+					};
+				};
+			};
+			buildConfigurationList = 6D73222C1AC29C5D007653AD /* Build configuration list for PBXProject "RaidenWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D7322281AC29C5D007653AD;
+			productRefGroup = 6D7322321AC29C5D007653AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7322301AC29C5D007653AD /* RaidenWeather */,
+				6D7322451AC29C5D007653AD /* RaidenWeatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D73222F1AC29C5D007653AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D73223C1AC29C5D007653AD /* Main.storyboard in Resources */,
+				6D7322411AC29C5D007653AD /* LaunchScreen.xib in Resources */,
+				6D73223E1AC29C5D007653AD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7322441AC29C5D007653AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D73222D1AC29C5D007653AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7322391AC29C5D007653AD /* ViewController.swift in Sources */,
+				6D7322371AC29C5D007653AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7322421AC29C5D007653AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D73224D1AC29C5D007653AD /* RaidenWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D7322481AC29C5D007653AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D7322301AC29C5D007653AD /* RaidenWeather */;
+			targetProxy = 6D7322471AC29C5D007653AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D73223A1AC29C5D007653AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D73223B1AC29C5D007653AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D73223F1AC29C5D007653AD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D7322401AC29C5D007653AD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D73224E1AC29C5D007653AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D73224F1AC29C5D007653AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D7322511AC29C5D007653AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaidenWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D7322521AC29C5D007653AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaidenWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D7322541AC29C5D007653AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RaidenWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaidenWeather.app/RaidenWeather";
+			};
+			name = Debug;
+		};
+		6D7322551AC29C5D007653AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RaidenWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaidenWeather.app/RaidenWeather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D73222C1AC29C5D007653AD /* Build configuration list for PBXProject "RaidenWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D73224E1AC29C5D007653AD /* Debug */,
+				6D73224F1AC29C5D007653AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7322501AC29C5D007653AD /* Build configuration list for PBXNativeTarget "RaidenWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7322511AC29C5D007653AD /* Debug */,
+				6D7322521AC29C5D007653AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D7322531AC29C5D007653AD /* Build configuration list for PBXNativeTarget "RaidenWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7322541AC29C5D007653AD /* Debug */,
+				6D7322551AC29C5D007653AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D7322291AC29C5D007653AD /* Project object */;
+}
